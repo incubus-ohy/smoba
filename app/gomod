@@ -1,0 +1,19 @@
+module github.com/incubus-ohy/smoba
+
+go 1.18
+
+require (
+    huaweicloud.com/go-runtime v0.0.0-00010101000000-000000000000
+)
+
+replace (
+    "github.com/incubus-ohy/smoba/config" => "./config"
+    "github.com/incubus-ohy/smoba/account" => "./account"
+    "github.com/incubus-ohy/smoba/http" => "./http"
+    "github.com/incubus-ohy/smoba/doTask" => "./doTask"
+    "github.com/incubus-ohy/smoba/doGift" => "./doGift"
+    "github.com/incubus-ohy/smoba/wxpush" => "./wxpush"
+
+    "huaweicloud.com/go-runtime" => "./go-runtime"
+
+)
