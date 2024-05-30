@@ -19,7 +19,7 @@ func (m *Account) RunTask(TaskId string) ([]string, error) {
 	case "2019072200001": //启动游戏
 		err = m.RunGame()
 
-	case "2024010800084": //分享内容
+	case "2024010800004": //分享内容
 		err = m.ShareGame()
 	case "2024010800001": //浏览资讯
 		any, err = m.ViewedNews()
